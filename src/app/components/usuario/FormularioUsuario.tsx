@@ -2,8 +2,8 @@ import InputTexto from "../shared/InputTexto";
 import { Usuario } from "@/src/core/model/Usuario";
 
 export interface FormularioUsuarioProps {
-      usuario: Usuario;
-      onChange: (usuario: Usuario) => void;
+      usuario: Partial<Usuario>;
+      onChange: (usuario: Partial<Usuario>) => void;
       salvar: () => void;
       cancelar: () => void;
 }
