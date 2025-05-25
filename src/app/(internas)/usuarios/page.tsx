@@ -23,7 +23,7 @@ const Page = () => {
                   <Titulo icone={IconUser} principal="Usuários" segundario="Cadastro de Usuários" />
                   {/* <ListaUsuario /> */}
                   <div className="flex justify-end">
-                        <button className="bg-blue-500 px-4 py-2 rounded-md"
+                        <button className="flex bg-blue-500 px-4 py-2 gap-2 rounded-md"
                               onClick={() => setUsuario({})}>
                               <IconPlus />
                               <span>Novo Usuário</span>
