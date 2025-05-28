@@ -1,6 +1,10 @@
-npm install prisma --save-dev
-npx prisma init --datasource-provider sqlite
-npx prisma migrate dev --name init
-npm install @tabler/icons-react
+## Comandos
 
-Link do Vídeo: https://www.youtube.com/watch?v=mikoTbhH_Qg
+- Prisma:
+  npm install prisma --save-dev
+  npx prisma init --datasource-provider sqlite
+  npx prisma migrate dev --name init
+  npm install @tabler/icons-react
+
+## Ref.
+  Link do Vídeo: https://www.youtube.com/watch?v=mikoTbhH_Qg
